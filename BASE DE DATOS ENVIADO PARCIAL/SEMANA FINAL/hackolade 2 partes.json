@@ -1,0 +1,599 @@
+use CogniAI_NoSQL;
+
+db.createCollection("estado_cognitivo_equipo", {
+    "capped": false,
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "title": "estado_cognitivo_equipo",
+            "properties": {
+                "_id": {
+                    "bsonType": "objectId"
+                },
+                "codigo_usuario": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "codigo_empresa": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "codigo_proyecto_activo": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "nombre_completo": {
+                    "bsonType": "string",
+                    "minLength": 3
+                },
+                "rol_corporativo": {
+                    "bsonType": "string",
+                    "enum": [
+                        "Lider Tecnico",
+                        "Desarrollador",
+                        "QA",
+                        "Arquitecto",
+                        "Estudiante"
+                    ]
+                },
+                "ultima_sesion_id": {
+                    "bsonType": "objectId"
+                },
+                "estado_actual": {
+                    "bsonType": "object",
+                    "properties": {
+                        "score_cognitivo": {
+                            "bsonType": "int",
+                            "maximum": 100,
+                            "minimum": 0
+                        },
+                        "semaforo": {
+                            "bsonType": "string",
+                            "enum": [
+                                "Verde",
+                                "Amarillo",
+                                "Rojo"
+                            ]
+                        },
+                        "diagnostico": {
+                            "bsonType": "string",
+                            "enum": [
+                                "Optimo",
+                                "Precaucion",
+                                "Fatiga_Critica",
+                                "Bloqueo_Conocimiento"
+                            ]
+                        },
+                        "disponible_para_criticas": {
+                            "bsonType": "bool"
+                        },
+                        "actualizado_en": {
+                            "bsonType": "date"
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                        "score_cognitivo",
+                        "semaforo",
+                        "diagnostico",
+                        "disponible_para_criticas",
+                        "actualizado_en"
+                    ]
+                },
+                "resumen_biometrico_actual": {
+                    "bsonType": "object",
+                    "properties": {
+                        "latencia_promedio_ms": {
+                            "bsonType": "int",
+                            "minimum": 0
+                        },
+                        "errores_sintaxis_min": {
+                            "bsonType": "double",
+                            "minimum": 0
+                        },
+                        "parpadeos_por_minuto": {
+                            "bsonType": "int",
+                            "minimum": 0
+                        },
+                        "microsuenos_ultima_hora": {
+                            "bsonType": "int",
+                            "minimum": 0
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                        "latencia_promedio_ms",
+                        "errores_sintaxis_min",
+                        "parpadeos_por_minuto",
+                        "microsuenos_ultima_hora"
+                    ]
+                },
+                "ultimas_alertas": {
+                    "bsonType": "array",
+                    "additionalItems": true,
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "alerta_id": {
+                                "bsonType": "objectId"
+                            },
+                            "tipo_evento": {
+                                "bsonType": "string",
+                                "enum": [
+                                    "Fatiga_Critica",
+                                    "Bloqueo_Conocimiento"
+                                ]
+                            },
+                            "severidad": {
+                                "bsonType": "string",
+                                "enum": [
+                                    "Baja",
+                                    "Media",
+                                    "Alta"
+                                ]
+                            },
+                            "accion_tomada": {
+                                "bsonType": "string",
+                                "enum": [
+                                    "Descanso_Aceptado",
+                                    "Alerta_Ignorada",
+                                    "Guardada_Para_Repaso"
+                                ]
+                            },
+                            "fecha_evento": {
+                                "bsonType": "date"
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": [
+                            "alerta_id",
+                            "tipo_evento",
+                            "severidad",
+                            "accion_tomada",
+                            "fecha_evento"
+                        ]
+                    },
+                    "maxItems": 3,
+                    "minItems": 0
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "_id",
+                "codigo_usuario",
+                "nombre_completo",
+                "rol_corporativo",
+                "ultima_sesion_id",
+                "estado_actual",
+                "resumen_biometrico_actual",
+                "ultimas_alertas"
+            ]
+        }
+    },
+    "validationLevel": "strict",
+    "validationAction": "error"
+});
+
+
+
+
+db.createCollection("sesiones_telemetria", {
+    "capped": false,
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "title": "sesiones_telemetria",
+            "properties": {
+                "_id": {
+                    "bsonType": "objectId"
+                },
+                "codigo_usuario": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "codigo_empresa": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "codigo_proyecto": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "fecha_inicio": {
+                    "bsonType": "date"
+                },
+                "fecha_fin": {
+                    "bsonType": "date"
+                },
+                "entorno_ide": {
+                    "bsonType": "object",
+                    "properties": {
+                        "editor": {
+                            "bsonType": "string",
+                            "enum": [
+                                "VS Code",
+                                "IntelliJ",
+                                "PyCharm",
+                                "Visual Studio"
+                            ]
+                        },
+                        "lenguaje_principal": {
+                            "bsonType": "string"
+                        },
+                        "version_agente_edge": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                        "editor",
+                        "lenguaje_principal",
+                        "version_agente_edge"
+                    ]
+                },
+                "New Field": {
+                    "bsonType": "array",
+                    "additionalItems": true,
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "timestamp": {
+                                "bsonType": "date"
+                            },
+                            "score_ventana": {
+                                "bsonType": "int",
+                                "maximum": 100,
+                                "minimum": 0
+                            },
+                            "teclado": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "latencia_ms": {
+                                        "bsonType": "int",
+                                        "minimum": 0
+                                    },
+                                    "tasa_borrado_pct": {
+                                        "bsonType": "double",
+                                        "maximum": 100,
+                                        "minimum": 0
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "required": [
+                                    "latencia_ms",
+                                    "tasa_borrado_pct"
+                                ]
+                            },
+                            "sintaxis": {
+                                "bsonType": "object",
+                                "additionalProperties": false
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": [
+                            "timestamp",
+                            "score_ventana",
+                            "teclado",
+                            "sintaxis"
+                        ]
+                    },
+                    "minItems": 1
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "_id",
+                "codigo_usuario",
+                "fecha_inicio",
+                "entorno_ide",
+                "New Field"
+            ]
+        }
+    },
+    "validationLevel": "strict",
+    "validationAction": "error"
+});
+
+
+
+
+db.createCollection("historial_alertas_mentorias", {
+    "capped": false,
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "title": "historial_alertas_mentorias",
+            "properties": {
+                "_id": {
+                    "bsonType": "objectId"
+                },
+                "New Field": {
+                    "bsonType": "string"
+                },
+                "New Field1": {
+                    "bsonType": "string"
+                },
+                "New Field2": {
+                    "bsonType": "string"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "validationLevel": "strict",
+    "validationAction": "error"
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+use CogniAI_NoSQL;
+
+db.createCollection("sesiones_telemetria", {
+    "capped": false,
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "title": "sesiones_telemetria",
+            "properties": {
+                "_id": {
+                    "bsonType": "objectId"
+                },
+                "codigo_usuario": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "codigo_empresa": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "codigo_proyecto": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "fecha_inicio": {
+                    "bsonType": "date"
+                },
+                "fecha_fin": {
+                    "bsonType": "date"
+                },
+                "entorno_ide": {
+                    "bsonType": "object",
+                    "properties": {
+                        "editor": {
+                            "bsonType": "string",
+                            "enum": [
+                                "VS Code",
+                                "IntelliJ",
+                                "PyCharm",
+                                "Visual Studio"
+                            ]
+                        },
+                        "lenguaje_principal": {
+                            "bsonType": "string"
+                        },
+                        "version_agente_edge": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "additionalProperties": false,
+                    "required": [
+                        "editor",
+                        "lenguaje_principal",
+                        "version_agente_edge"
+                    ]
+                },
+                "New Field": {
+                    "bsonType": "array",
+                    "additionalItems": true,
+                    "items": {
+                        "bsonType": "object",
+                        "properties": {
+                            "timestamp": {
+                                "bsonType": "date"
+                            },
+                            "score_ventana": {
+                                "bsonType": "int",
+                                "maximum": 100,
+                                "minimum": 0
+                            },
+                            "teclado": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "latencia_ms": {
+                                        "bsonType": "int",
+                                        "minimum": 0
+                                    },
+                                    "tasa_borrado_pct": {
+                                        "bsonType": "double",
+                                        "maximum": 100,
+                                        "minimum": 0
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "required": [
+                                    "latencia_ms",
+                                    "tasa_borrado_pct"
+                                ]
+                            },
+                            "sintaxis": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "errores_min": {
+                                        "bsonType": "int",
+                                        "minimum": 0
+                                    },
+                                    "correcciones_masivas": {
+                                        "bsonType": "int",
+                                        "minimum": 0
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "required": [
+                                    "correcciones_masivas"
+                                ]
+                            },
+                            "visual": {
+                                "bsonType": "object",
+                                "properties": {
+                                    "ear_promedio": {
+                                        "bsonType": "double",
+                                        "maximum": 1,
+                                        "minimum": 0
+                                    },
+                                    "parpadeos_min": {
+                                        "bsonType": "int",
+                                        "minimum": 0
+                                    },
+                                    "microsuenos": {
+                                        "bsonType": "int",
+                                        "minimum": 0
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "required": [
+                                    "ear_promedio",
+                                    "parpadeos_min",
+                                    "microsuenos"
+                                ]
+                            }
+                        },
+                        "additionalProperties": false,
+                        "required": [
+                            "timestamp",
+                            "score_ventana",
+                            "teclado",
+                            "sintaxis",
+                            "visual"
+                        ]
+                    },
+                    "minItems": 1
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "_id",
+                "codigo_usuario",
+                "fecha_inicio",
+                "entorno_ide",
+                "New Field"
+            ]
+        }
+    },
+    "validationLevel": "strict",
+    "validationAction": "error"
+});
+
+
+
+
+db.createCollection("historial_alertas_mentorias", {
+    "capped": false,
+    "validator": {
+        "$jsonSchema": {
+            "bsonType": "object",
+            "title": "historial_alertas_mentorias",
+            "properties": {
+                "_id": {
+                    "bsonType": "objectId"
+                },
+                "codigo_usuario": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "codigo_empresa": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "codigo_proyecto": {
+                    "bsonType": "int",
+                    "minimum": 1
+                },
+                "sesion_id": {
+                    "bsonType": "objectId"
+                },
+                "tipo_evento": {
+                    "bsonType": "string",
+                    "enum": [
+                        "Fatiga_Critica",
+                        "Bloqueo_Conocimiento"
+                    ]
+                },
+                "severidad": {
+                    "bsonType": "string",
+                    "enum": [
+                        "Baja",
+                        "Media",
+                        "Alta"
+                    ]
+                },
+                "accion_tomada": {
+                    "bsonType": "string",
+                    "enum": [
+                        "Descanso_Aceptado",
+                        "Alerta_Ignorada",
+                        "Guardada_Para_Repaso"
+                    ]
+                },
+                "fecha_evento": {
+                    "bsonType": "date"
+                },
+                "detalle_evento": {
+                    "bsonType": "object",
+                    "properties": {
+                        "score_al_disparar": {
+                            "bsonType": "int",
+                            "maximum": 100,
+                            "minimum": 0
+                        },
+                        "minutos_pausa_sugeridos": {
+                            "bsonType": "int",
+                            "minimum": 5
+                        },
+                        "horas_retrabajo_evitadas": {
+                            "bsonType": "double",
+                            "minimum": 0
+                        },
+                        "lenguaje": {
+                            "bsonType": "string"
+                        },
+                        "tema_sugerido": {
+                            "bsonType": "string"
+                        },
+                        "url_documentacion": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false,
+            "required": [
+                "_id",
+                "codigo_usuario",
+                "sesion_id",
+                "tipo_evento",
+                "severidad",
+                "accion_tomada",
+                "fecha_evento",
+                "detalle_evento"
+            ]
+        }
+    },
+    "validationLevel": "strict",
+    "validationAction": "error"
+});

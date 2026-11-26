@@ -1,0 +1,1606 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dineug/erd-editor/main/json-schema/schema.json",
+  "version": "3.0.0",
+  "settings": {
+    "originX": 0,
+    "originY": 0,
+    "zoomLevel": 1,
+    "show": 500,
+    "database": 2,
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": 1,
+    "tableNameCase": 4,
+    "columnNameCase": 2,
+    "bracketType": 1,
+    "relationshipDataTypeSync": true,
+    "columnOrder": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "maxWidthComment": -1,
+    "lockSettings": 63
+  },
+  "doc": {
+    "tableIds": [
+      "euOtYataWEBWnUB4lhBp6",
+      "rHeG-kKp8qHW9EkwIKu8e",
+      "z2dXakrG9gDVZuiiF9_zQ",
+      "8f5TklIVt-OfC6aZO9jgh",
+      "xNARROzQ3TAqzb2bmPfvv",
+      "0bVvkUmG2s49R6BSQPOXM",
+      "bPS7YfIwY8zxwGkoHwkvn",
+      "RwA7VxtEQeAoNirzgsV_Z",
+      "Bm0GNCRwkYVbGHJ8QewCE",
+      "d9YVAZhEhjfyW6LCXsW5R",
+      "iXutqaRoiYaSnXcs48zzE",
+      "axvu5SVSCvXNnbvtBp-og",
+      "5jZv2evJM_c4w0oTIkcv-",
+      "l7YSY2AQM5foSbbW3s8h2",
+      "03haxj77ojax6cy4zax5yo8xa"
+    ],
+    "relationshipIds": [
+      "yvtU9VTyC70SmaPEaq6t-",
+      "g8jZboLYnpAu4t1M8m_uw",
+      "3EDQloKaoUkrDEYmJV8Vr",
+      "9O7z1Fe1nrR45KSrBloV9",
+      "AvS38M8IVJTlQku8i-as9",
+      "3tHIZ2yVsmnHypbOHTtqX",
+      "OhWx8jZpnF7RWh98VV1Mw",
+      "f_XIvLY1GvjkCvllxS4Ea",
+      "eE6uRcba7dPR07GZYlene",
+      "wv4r5i3tYdpySYhirs9z8",
+      "q7mY7oyKc9vfZvH0ciQj2",
+      "oa-R9ylF9bt5R9cDMAfJx",
+      "V6g1VE9AfTs_2dFGxQWZt",
+      "W0eV02xGv-jY1RNu7WAfw",
+      "rjnRXctkmvdK-nxwBaedS",
+      "FpaUnz_UHAEH1OGPFl5cn",
+      "JqHVy2u-faMyZpvOl1wkA",
+      "Gn5ke5_qCzV7bM1Fu8fxq",
+      "03haxjhc5pqvphd8zo94mlvo2",
+      "03haxjsgbinm8sh40mv0ykl6e"
+    ],
+    "indexIds": [
+      "03haxa4tre72p3xaoo4cq0ma4",
+      "03haxaf6ozgvzculof1b0l6ln"
+    ],
+    "memoIds": [
+      "4Vo9TqBb1UeIIY67kChgs",
+      "Dz_qypWnXla-fsjK3Nax1",
+      "mkkTCqTg2mUzlQ3SNjakb",
+      "UzTkEH4HQayL7cZKC0Zp2",
+      "73LmJft-WHiFvFg5vTgyR",
+      "ErpOe1KOk7NEwwwrGqokT",
+      "Cjya1ocORDl5v3_rF_A1s",
+      "dmEewv-YAo6c-lrhQw9cY",
+      "EQR5Jd4hmP2M3v5-oFM7u",
+      "03haxru78ik9d7bcowv1tq9iw",
+      "03haxs0q66t3ogfz3ckd229b0",
+      "03haxs56chq561j93kg1lnybf",
+      "03haxsbs0r3kv2zb95ql2b5gn",
+      "03haxskevkti1txir821xepk5",
+      "03haxspngrx1slgcmqvei9ll5",
+      "03haxstl7kouytbfb692jvrfv",
+      "03haxsx53zhubwdupxylj88k9",
+      "03haxt2ae3kslxcy2oqyvxmww",
+      "03haxt4qvaup83nuqaluxsfjk",
+      "03haxtxmi94p2celubu5yxwv8"
+    ]
+  },
+  "collections": {
+    "tableEntities": {
+      "03haxj77ojax6cy4zax5yo8xa": {
+        "id": "03haxj77ojax6cy4zax5yo8xa",
+        "name": "auditoria_asignacion_forzada",
+        "columnIds": [
+          "03haxjhc53tr6d20cf0dn9hq9",
+          "03haxj9f6chxpqwx2eecebpdd",
+          "03haxj9fvv430m0gvvrqrhhy0",
+          "03haxk26j4e6vcon6lcmp8911",
+          "03haxjsgbinm8sh40mueioy1d"
+        ],
+        "ui": {
+          "x": -425.3607,
+          "y": -1107.6511
+        }
+      },
+      "0bVvkUmG2s49R6BSQPOXM": {
+        "id": "0bVvkUmG2s49R6BSQPOXM",
+        "name": "plan_suscripcion",
+        "columnIds": [
+          "lbg7jos5VTLZVYZSzO1YO",
+          "rXKd2t8j8mDbrP-QpuxY5",
+          "wXdXnze-Mbz9wFj9tkort",
+          "5jiiCGmjhf-DErwIyvHYv",
+          "6dyUn8HSomnOiipFAR96u",
+          "pjj2DGZ7Zsmf47_-ojeyH",
+          "g2T1UnH5HedgCDcbMqPLO"
+        ],
+        "ui": {
+          "x": -322.5583,
+          "y": -148.6693
+        }
+      },
+      "5jZv2evJM_c4w0oTIkcv-": {
+        "id": "5jZv2evJM_c4w0oTIkcv-",
+        "name": "asignacion_proyecto",
+        "columnIds": [
+          "3rxsmKNtq-UGXML_jGj4J",
+          "9xu3JH6kyLhyDd2X_dKCc",
+          "-NxScX0Hf_qjIQ7MvBGzg",
+          "8QDusVbqlHXJkFg0IGRNH"
+        ],
+        "ui": {
+          "x": 380.1128,
+          "y": -1097.2603
+        }
+      },
+      "8f5TklIVt-OfC6aZO9jgh": {
+        "id": "8f5TklIVt-OfC6aZO9jgh",
+        "name": "tarea_sprint",
+        "columnIds": [
+          "baDrfw6zu3AkMZvC4MfUv",
+          "AMhCPhLuS6jy3nAl4z7Pr",
+          "_9ZGt-9BXnXvPpL2YeK-s",
+          "3T7ScKkZwo2P9gb2IQqpO",
+          "r-gn94uVMWRBNVZ1gQ-GU",
+          "03haxkbtbzjpx8kpvoukwvibc",
+          "03haxkgw89szrkp46hojk4tg9"
+        ],
+        "ui": {
+          "x": 937.4076,
+          "y": -1272.3643
+        }
+      },
+      "Bm0GNCRwkYVbGHJ8QewCE": {
+        "id": "Bm0GNCRwkYVbGHJ8QewCE",
+        "name": "metodo_pago_usuario",
+        "columnIds": [
+          "TYXbnEKeJ_QqWc5nVT801",
+          "MMllEYT01Go5IvqlHelS5",
+          "aEj77DRriVfy5ilHt2cyP",
+          "MqmKS1NKhDLnGYWCUkNnb",
+          "WLKRoaHVEJ4YTbCRNpPNl",
+          "CScD7xuun7OktU_guCw2F",
+          "0TC0moURl-PgTtsvRyEgi"
+        ],
+        "ui": {
+          "x": -360.9692,
+          "y": -786.9233
+        }
+      },
+      "RwA7VxtEQeAoNirzgsV_Z": {
+        "id": "RwA7VxtEQeAoNirzgsV_Z",
+        "name": "suscripcion_empresa",
+        "columnIds": [
+          "3yRgjlbVzkNzxv3gTlseT",
+          "Yk97rFoj9w4CQURUA0pwN",
+          "v2b8s7PSztlrCWtjhDqhH",
+          "03haxkm8fhwqa880izrx347aa",
+          "03haxkpkrux6y1o7m2fit73lr",
+          "-aVVQjYcRUc_nBQ56i-D8",
+          "AfekGrc2ItKEJANbIbKIU"
+        ],
+        "ui": {
+          "x": 826.66,
+          "y": 153.3382
+        }
+      },
+      "axvu5SVSCvXNnbvtBp-og": {
+        "id": "axvu5SVSCvXNnbvtBp-og",
+        "name": "usuario_b2b",
+        "columnIds": [
+          "0B3yPhQnDCtzzKaDTtnjo",
+          "_3HUvLhv-vjwGXlUySjMH",
+          "ghUNTEfMQomzhUUwPrI8o"
+        ],
+        "ui": {
+          "x": 187.8456,
+          "y": -752.2852
+        }
+      },
+      "bPS7YfIwY8zxwGkoHwkvn": {
+        "id": "bPS7YfIwY8zxwGkoHwkvn",
+        "name": "suscripcion_usuario",
+        "columnIds": [
+          "f--gqvWJVHsGk7UootyyA",
+          "uRnMR97dOBNN8z1VSD59c",
+          "BqY3rcmQTjjWDyTukov41",
+          "-hjDbjzAOruiU4FDxQrc3",
+          "03haxkute9rl0u1lsnn8ndvn3",
+          "6D-i5JvCbk6Rdn0fV_Wk0",
+          "6F4vuCsbbpYw3_55SgGyj"
+        ],
+        "ui": {
+          "x": -971.9912,
+          "y": -312.7386
+        }
+      },
+      "d9YVAZhEhjfyW6LCXsW5R": {
+        "id": "d9YVAZhEhjfyW6LCXsW5R",
+        "name": "transaccion_pago",
+        "columnIds": [
+          "dgMKB_b0bgfb7UkQ0ssjb",
+          "eTh_PBCHusZqSbCZIX2R0",
+          "EDrCY54aKlDS1myGV9Xn9",
+          "NEkPDm5I45_6xn0LuH5vO",
+          "iwo-ub6ojLyzNfSJ87PPm",
+          "FcU1rbfUoxS_xElFk5KBk",
+          "VjRvntwSgAJDh8p5v1STg",
+          "zbpHztegho0xQ7NuzhG3s"
+        ],
+        "ui": {
+          "x": -1004.0382,
+          "y": -859.9149
+        }
+      },
+      "euOtYataWEBWnUB4lhBp6": {
+        "id": "euOtYataWEBWnUB4lhBp6",
+        "name": "usuario",
+        "columnIds": [
+          "NkPm30CuO3nJcbu0PFTdj",
+          "DlmVyGMlixDFpoFGgRnKP",
+          "sVM40cDgqqMEOoulli-vH",
+          "Owf1NLbSFA2oLJoL7DJ_Q",
+          "_uIm_xay1oJYdC8c2JC3T",
+          "9XU39d75MldSclT4mf0ub",
+          "63MuWU9yY6zEjHX1W8AHY",
+          "dopdxescL3WJSS80yWrNi",
+          "j0rHsfhJuzv1aDQ6cVIrw",
+          "H1l8ac133Z-KhG8vZo7xz"
+        ],
+        "ui": {
+          "x": 177.0205,
+          "y": -452.0147
+        }
+      },
+      "iXutqaRoiYaSnXcs48zzE": {
+        "id": "iXutqaRoiYaSnXcs48zzE",
+        "name": "transaccion_pago_empresa",
+        "columnIds": [
+          "kRKA0VsFC3aQjJHTUgY8g",
+          "dbJjqVwga9hJui9Xmyh2O",
+          "mBZRXFdOBkWbwywDv6BwA",
+          "S24DEniPOIQXQkIKwF49v",
+          "w7vDNQqmoWIFLLyd-bF1P",
+          "hhGy-QK-MKw7Sor7fEkp3",
+          "C5xkLYCC7YG_ug98x6-HF"
+        ],
+        "ui": {
+          "x": 945.7846,
+          "y": -259.2459
+        }
+      },
+      "l7YSY2AQM5foSbbW3s8h2": {
+        "id": "l7YSY2AQM5foSbbW3s8h2",
+        "name": "usuario_b2c",
+        "columnIds": [
+          "TwuTKpJZEKMihdmg7nheK",
+          "2ndtyLmP8tAYaVqvTdJ4I",
+          "6ofia8DoMqJEiI4m8okN0"
+        ],
+        "ui": {
+          "x": -403.9094,
+          "y": -358.7014
+        }
+      },
+      "rHeG-kKp8qHW9EkwIKu8e": {
+        "id": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "empresa",
+        "columnIds": [
+          "5AM9XP9BZtBpqMyzVS3l7",
+          "LL7GPkJhxv8iF7f9NO6yW",
+          "Zd2tpOVSk2Q_HHETnON_p",
+          "G-R39nftwY1at8aRzhlTx",
+          "1jgxUiS3LYhf9wkZe3Wgr",
+          "vuaTIPq-Dj8dixxlG-2LK",
+          "ebnFapFiwmxhP7iNa66vI",
+          "OuutszWs6OVIbuztx6I3Z",
+          "NyLlqPlrbMG_05I4Nn_eE",
+          "03haxk8o1r7yhzzhugeothk8d"
+        ],
+        "ui": {
+          "x": 525.8446,
+          "y": -324.942
+        }
+      },
+      "xNARROzQ3TAqzb2bmPfvv": {
+        "id": "xNARROzQ3TAqzb2bmPfvv",
+        "name": "asignacion_tarea",
+        "columnIds": [
+          "KOo0xSYfxVk4Cuh6lQ2p2",
+          "yWUefAVY0-rjlFA95EGXO",
+          "x1h_vcA3nfPz_wXEpzcDq",
+          "9WHXZKy_TOJ6-QukM1t6h"
+        ],
+        "ui": {
+          "x": 133.1559,
+          "y": -1347.1404
+        }
+      },
+      "z2dXakrG9gDVZuiiF9_zQ": {
+        "id": "z2dXakrG9gDVZuiiF9_zQ",
+        "name": "proyecto",
+        "columnIds": [
+          "cenv99TVOfUJNWxLSP9SD",
+          "dAM6h-kXpatsfS96gcLGs",
+          "OcFxtfzTS3OMYf8KPaYq9",
+          "VMZypninOBxVcq1rARhcZ"
+        ],
+        "ui": {
+          "x": 926.7253,
+          "y": -804.1413
+        }
+      }
+    },
+    "tableColumnEntities": {
+      "03haxj9f6chxpqwx2eecebpdd": {
+        "id": "03haxj9f6chxpqwx2eecebpdd",
+        "tableId": "03haxj77ojax6cy4zax5yo8xa",
+        "name": "puntaje_fatiga_momento",
+        "dataType": "int",
+        "options": 8
+      },
+      "03haxj9fvv430m0gvvrqrhhy0": {
+        "id": "03haxj9fvv430m0gvvrqrhhy0",
+        "tableId": "03haxj77ojax6cy4zax5yo8xa",
+        "name": "justificacion_riesgo",
+        "dataType": "nvarchar(300)",
+        "options": 8
+      },
+      "03haxjhc53tr6d20cf0dn9hq9": {
+        "id": "03haxjhc53tr6d20cf0dn9hq9",
+        "tableId": "03haxj77ojax6cy4zax5yo8xa",
+        "name": "codigo_asignacion_tarea",
+        "dataType": "int",
+        "options": 10
+      },
+      "03haxjsgbinm8sh40mueioy1d": {
+        "id": "03haxjsgbinm8sh40mueioy1d",
+        "tableId": "03haxj77ojax6cy4zax5yo8xa",
+        "name": "codigo_lider_autorizador",
+        "dataType": "int",
+        "options": 8
+      },
+      "03haxk26j4e6vcon6lcmp8911": {
+        "id": "03haxk26j4e6vcon6lcmp8911",
+        "tableId": "03haxj77ojax6cy4zax5yo8xa",
+        "name": "fecha_registro",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "5jiiCGmjhf-DErwIyvHYv": {
+        "id": "5jiiCGmjhf-DErwIyvHYv",
+        "tableId": "0bVvkUmG2s49R6BSQPOXM",
+        "name": "usuarios_minimos_requeridos",
+        "dataType": "int",
+        "options": 8
+      },
+      "6dyUn8HSomnOiipFAR96u": {
+        "id": "6dyUn8HSomnOiipFAR96u",
+        "tableId": "0bVvkUmG2s49R6BSQPOXM",
+        "name": "precio_mensual",
+        "dataType": "decimal(10,2)",
+        "options": 8
+      },
+      "g2T1UnH5HedgCDcbMqPLO": {
+        "id": "g2T1UnH5HedgCDcbMqPLO",
+        "tableId": "0bVvkUmG2s49R6BSQPOXM",
+        "name": "esta_activo",
+        "dataType": "bit",
+        "options": 8
+      },
+      "lbg7jos5VTLZVYZSzO1YO": {
+        "id": "lbg7jos5VTLZVYZSzO1YO",
+        "tableId": "0bVvkUmG2s49R6BSQPOXM",
+        "name": "codigo_plan",
+        "dataType": "int",
+        "options": 11
+      },
+      "pjj2DGZ7Zsmf47_-ojeyH": {
+        "id": "pjj2DGZ7Zsmf47_-ojeyH",
+        "tableId": "0bVvkUmG2s49R6BSQPOXM",
+        "name": "precio_anual",
+        "dataType": "decimal(10,2)",
+        "options": 8
+      },
+      "rXKd2t8j8mDbrP-QpuxY5": {
+        "id": "rXKd2t8j8mDbrP-QpuxY5",
+        "tableId": "0bVvkUmG2s49R6BSQPOXM",
+        "name": "nombre_plan",
+        "dataType": "varchar(50)",
+        "options": 12
+      },
+      "wXdXnze-Mbz9wFj9tkort": {
+        "id": "wXdXnze-Mbz9wFj9tkort",
+        "tableId": "0bVvkUmG2s49R6BSQPOXM",
+        "name": "tipo_plan",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "-NxScX0Hf_qjIQ7MvBGzg": {
+        "id": "-NxScX0Hf_qjIQ7MvBGzg",
+        "tableId": "5jZv2evJM_c4w0oTIkcv-",
+        "name": "codigo_proyecto",
+        "dataType": "int",
+        "options": 8
+      },
+      "3rxsmKNtq-UGXML_jGj4J": {
+        "id": "3rxsmKNtq-UGXML_jGj4J",
+        "tableId": "5jZv2evJM_c4w0oTIkcv-",
+        "name": "codigo_asignacion",
+        "dataType": "int",
+        "options": 11
+      },
+      "8QDusVbqlHXJkFg0IGRNH": {
+        "id": "8QDusVbqlHXJkFg0IGRNH",
+        "tableId": "5jZv2evJM_c4w0oTIkcv-",
+        "name": "codigo_desarrollador",
+        "dataType": "int",
+        "options": 8
+      },
+      "9xu3JH6kyLhyDd2X_dKCc": {
+        "id": "9xu3JH6kyLhyDd2X_dKCc",
+        "tableId": "5jZv2evJM_c4w0oTIkcv-",
+        "name": "fecha_asignacion",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "03haxkbtbzjpx8kpvoukwvibc": {
+        "id": "03haxkbtbzjpx8kpvoukwvibc",
+        "tableId": "8f5TklIVt-OfC6aZO9jgh",
+        "name": "criticidad",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "03haxkgw89szrkp46hojk4tg9": {
+        "id": "03haxkgw89szrkp46hojk4tg9",
+        "tableId": "8f5TklIVt-OfC6aZO9jgh",
+        "name": "horas_estimadas",
+        "dataType": "decimal(5,2)",
+        "options": 8
+      },
+      "3T7ScKkZwo2P9gb2IQqpO": {
+        "id": "3T7ScKkZwo2P9gb2IQqpO",
+        "tableId": "8f5TklIVt-OfC6aZO9jgh",
+        "name": "tipo",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "AMhCPhLuS6jy3nAl4z7Pr": {
+        "id": "AMhCPhLuS6jy3nAl4z7Pr",
+        "tableId": "8f5TklIVt-OfC6aZO9jgh",
+        "name": "titulo",
+        "dataType": "nvarchar(150)",
+        "options": 8
+      },
+      "_9ZGt-9BXnXvPpL2YeK-s": {
+        "id": "_9ZGt-9BXnXvPpL2YeK-s",
+        "tableId": "8f5TklIVt-OfC6aZO9jgh",
+        "name": "descripcion",
+        "dataType": "nvarchar(255)",
+        "options": 0
+      },
+      "baDrfw6zu3AkMZvC4MfUv": {
+        "id": "baDrfw6zu3AkMZvC4MfUv",
+        "tableId": "8f5TklIVt-OfC6aZO9jgh",
+        "name": "codigo_tarea",
+        "dataType": "int",
+        "options": 11
+      },
+      "r-gn94uVMWRBNVZ1gQ-GU": {
+        "id": "r-gn94uVMWRBNVZ1gQ-GU",
+        "tableId": "8f5TklIVt-OfC6aZO9jgh",
+        "name": "codigo_proyecto",
+        "dataType": "int",
+        "options": 8
+      },
+      "0TC0moURl-PgTtsvRyEgi": {
+        "id": "0TC0moURl-PgTtsvRyEgi",
+        "tableId": "Bm0GNCRwkYVbGHJ8QewCE",
+        "name": "codigo_usuario",
+        "dataType": "int",
+        "options": 8
+      },
+      "CScD7xuun7OktU_guCw2F": {
+        "id": "CScD7xuun7OktU_guCw2F",
+        "tableId": "Bm0GNCRwkYVbGHJ8QewCE",
+        "name": "fecha_agregado",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "MMllEYT01Go5IvqlHelS5": {
+        "id": "MMllEYT01Go5IvqlHelS5",
+        "tableId": "Bm0GNCRwkYVbGHJ8QewCE",
+        "name": "token_pasarela",
+        "dataType": "varchar(255)",
+        "options": 12
+      },
+      "MqmKS1NKhDLnGYWCUkNnb": {
+        "id": "MqmKS1NKhDLnGYWCUkNnb",
+        "tableId": "Bm0GNCRwkYVbGHJ8QewCE",
+        "name": "marca_tarjeta",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "TYXbnEKeJ_QqWc5nVT801": {
+        "id": "TYXbnEKeJ_QqWc5nVT801",
+        "tableId": "Bm0GNCRwkYVbGHJ8QewCE",
+        "name": "codigo_metodo_pago",
+        "dataType": "int",
+        "options": 11
+      },
+      "WLKRoaHVEJ4YTbCRNpPNl": {
+        "id": "WLKRoaHVEJ4YTbCRNpPNl",
+        "tableId": "Bm0GNCRwkYVbGHJ8QewCE",
+        "name": "es_predeterminado",
+        "dataType": "bit",
+        "options": 8
+      },
+      "aEj77DRriVfy5ilHt2cyP": {
+        "id": "aEj77DRriVfy5ilHt2cyP",
+        "tableId": "Bm0GNCRwkYVbGHJ8QewCE",
+        "name": "ultimos_cuatro_digitos",
+        "dataType": "char(4)",
+        "options": 8
+      },
+      "-aVVQjYcRUc_nBQ56i-D8": {
+        "id": "-aVVQjYcRUc_nBQ56i-D8",
+        "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+        "name": "codigo_empresa",
+        "dataType": "int",
+        "options": 8
+      },
+      "03haxkm8fhwqa880izrx347aa": {
+        "id": "03haxkm8fhwqa880izrx347aa",
+        "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+        "name": "estado",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "03haxkpkrux6y1o7m2fit73lr": {
+        "id": "03haxkpkrux6y1o7m2fit73lr",
+        "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+        "name": "fin_periodo_actual",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "3yRgjlbVzkNzxv3gTlseT": {
+        "id": "3yRgjlbVzkNzxv3gTlseT",
+        "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+        "name": "codigo_suscripcion_empresa",
+        "dataType": "int",
+        "options": 11
+      },
+      "AfekGrc2ItKEJANbIbKIU": {
+        "id": "AfekGrc2ItKEJANbIbKIU",
+        "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+        "name": "codigo_plan",
+        "dataType": "int",
+        "options": 8
+      },
+      "Yk97rFoj9w4CQURUA0pwN": {
+        "id": "Yk97rFoj9w4CQURUA0pwN",
+        "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+        "name": "ciclo",
+        "dataType": "varchar(10)",
+        "options": 8
+      },
+      "v2b8s7PSztlrCWtjhDqhH": {
+        "id": "v2b8s7PSztlrCWtjhDqhH",
+        "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+        "name": "fecha_creacion",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "0B3yPhQnDCtzzKaDTtnjo": {
+        "id": "0B3yPhQnDCtzzKaDTtnjo",
+        "tableId": "axvu5SVSCvXNnbvtBp-og",
+        "name": "codigo_usuario",
+        "dataType": "int",
+        "options": 10
+      },
+      "_3HUvLhv-vjwGXlUySjMH": {
+        "id": "_3HUvLhv-vjwGXlUySjMH",
+        "tableId": "axvu5SVSCvXNnbvtBp-og",
+        "name": "rol_corporativo",
+        "dataType": "varchar(50)",
+        "options": 8
+      },
+      "ghUNTEfMQomzhUUwPrI8o": {
+        "id": "ghUNTEfMQomzhUUwPrI8o",
+        "tableId": "axvu5SVSCvXNnbvtBp-og",
+        "name": "codigo_empresa",
+        "dataType": "int",
+        "options": 8
+      },
+      "-hjDbjzAOruiU4FDxQrc3": {
+        "id": "-hjDbjzAOruiU4FDxQrc3",
+        "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+        "name": "fin_periodo_actual",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "03haxkute9rl0u1lsnn8ndvn3": {
+        "id": "03haxkute9rl0u1lsnn8ndvn3",
+        "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+        "name": "fecha_creacion",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "6D-i5JvCbk6Rdn0fV_Wk0": {
+        "id": "6D-i5JvCbk6Rdn0fV_Wk0",
+        "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+        "name": "codigo_plan",
+        "dataType": "int",
+        "options": 8
+      },
+      "6F4vuCsbbpYw3_55SgGyj": {
+        "id": "6F4vuCsbbpYw3_55SgGyj",
+        "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+        "name": "codigo_usuario",
+        "dataType": "int",
+        "options": 8
+      },
+      "BqY3rcmQTjjWDyTukov41": {
+        "id": "BqY3rcmQTjjWDyTukov41",
+        "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+        "name": "estado",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "f--gqvWJVHsGk7UootyyA": {
+        "id": "f--gqvWJVHsGk7UootyyA",
+        "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+        "name": "codigo_suscripcion",
+        "dataType": "int",
+        "options": 11
+      },
+      "uRnMR97dOBNN8z1VSD59c": {
+        "id": "uRnMR97dOBNN8z1VSD59c",
+        "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+        "name": "ciclo",
+        "dataType": "varchar(10)",
+        "options": 8
+      },
+      "EDrCY54aKlDS1myGV9Xn9": {
+        "id": "EDrCY54aKlDS1myGV9Xn9",
+        "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+        "name": "moneda",
+        "dataType": "char(3)",
+        "options": 8
+      },
+      "FcU1rbfUoxS_xElFk5KBk": {
+        "id": "FcU1rbfUoxS_xElFk5KBk",
+        "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+        "name": "fecha_procesamiento",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "NEkPDm5I45_6xn0LuH5vO": {
+        "id": "NEkPDm5I45_6xn0LuH5vO",
+        "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+        "name": "estado",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "VjRvntwSgAJDh8p5v1STg": {
+        "id": "VjRvntwSgAJDh8p5v1STg",
+        "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+        "name": "codigo_metodo_pago",
+        "dataType": "int",
+        "options": 8
+      },
+      "dgMKB_b0bgfb7UkQ0ssjb": {
+        "id": "dgMKB_b0bgfb7UkQ0ssjb",
+        "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+        "name": "codigo_transaccion",
+        "dataType": "int",
+        "options": 11
+      },
+      "eTh_PBCHusZqSbCZIX2R0": {
+        "id": "eTh_PBCHusZqSbCZIX2R0",
+        "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+        "name": "monto",
+        "dataType": "decimal(10,2)",
+        "options": 8
+      },
+      "iwo-ub6ojLyzNfSJ87PPm": {
+        "id": "iwo-ub6ojLyzNfSJ87PPm",
+        "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+        "name": "url_recibo_pasarela",
+        "dataType": "varchar(500)",
+        "options": 0
+      },
+      "zbpHztegho0xQ7NuzhG3s": {
+        "id": "zbpHztegho0xQ7NuzhG3s",
+        "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+        "name": "codigo_suscripcion",
+        "dataType": "int",
+        "options": 8
+      },
+      "63MuWU9yY6zEjHX1W8AHY": {
+        "id": "63MuWU9yY6zEjHX1W8AHY",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "tipo_usuario",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "9XU39d75MldSclT4mf0ub": {
+        "id": "9XU39d75MldSclT4mf0ub",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "hash_contrasena",
+        "dataType": "varchar(255)",
+        "options": 8
+      },
+      "DlmVyGMlixDFpoFGgRnKP": {
+        "id": "DlmVyGMlixDFpoFGgRnKP",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "primer_nombre",
+        "dataType": "nvarchar(50)",
+        "options": 8
+      },
+      "H1l8ac133Z-KhG8vZo7xz": {
+        "id": "H1l8ac133Z-KhG8vZo7xz",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "fecha_actualizacion",
+        "dataType": "datetime2",
+        "options": 0
+      },
+      "NkPm30CuO3nJcbu0PFTdj": {
+        "id": "NkPm30CuO3nJcbu0PFTdj",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "codigo_usuario",
+        "dataType": "int",
+        "options": 11
+      },
+      "Owf1NLbSFA2oLJoL7DJ_Q": {
+        "id": "Owf1NLbSFA2oLJoL7DJ_Q",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "apellido_paterno",
+        "dataType": "nvarchar(50)",
+        "options": 8
+      },
+      "_uIm_xay1oJYdC8c2JC3T": {
+        "id": "_uIm_xay1oJYdC8c2JC3T",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "correo_electronico",
+        "dataType": "varchar(100)",
+        "options": 12
+      },
+      "dopdxescL3WJSS80yWrNi": {
+        "id": "dopdxescL3WJSS80yWrNi",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "estado_cuenta",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "j0rHsfhJuzv1aDQ6cVIrw": {
+        "id": "j0rHsfhJuzv1aDQ6cVIrw",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "fecha_creacion",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "sVM40cDgqqMEOoulli-vH": {
+        "id": "sVM40cDgqqMEOoulli-vH",
+        "tableId": "euOtYataWEBWnUB4lhBp6",
+        "name": "apellido_materno",
+        "dataType": "nvarchar(50)",
+        "options": 0
+      },
+      "C5xkLYCC7YG_ug98x6-HF": {
+        "id": "C5xkLYCC7YG_ug98x6-HF",
+        "tableId": "iXutqaRoiYaSnXcs48zzE",
+        "name": "codigo_suscripcion_empresa",
+        "dataType": "int",
+        "options": 8
+      },
+      "S24DEniPOIQXQkIKwF49v": {
+        "id": "S24DEniPOIQXQkIKwF49v",
+        "tableId": "iXutqaRoiYaSnXcs48zzE",
+        "name": "estado",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "dbJjqVwga9hJui9Xmyh2O": {
+        "id": "dbJjqVwga9hJui9Xmyh2O",
+        "tableId": "iXutqaRoiYaSnXcs48zzE",
+        "name": "monto",
+        "dataType": "decimal(10,2)",
+        "options": 8
+      },
+      "hhGy-QK-MKw7Sor7fEkp3": {
+        "id": "hhGy-QK-MKw7Sor7fEkp3",
+        "tableId": "iXutqaRoiYaSnXcs48zzE",
+        "name": "url_descarga_pdf",
+        "dataType": "varchar(500)",
+        "options": 0
+      },
+      "kRKA0VsFC3aQjJHTUgY8g": {
+        "id": "kRKA0VsFC3aQjJHTUgY8g",
+        "tableId": "iXutqaRoiYaSnXcs48zzE",
+        "name": "codigo_transaccion_empresa",
+        "dataType": "int",
+        "options": 11
+      },
+      "mBZRXFdOBkWbwywDv6BwA": {
+        "id": "mBZRXFdOBkWbwywDv6BwA",
+        "tableId": "iXutqaRoiYaSnXcs48zzE",
+        "name": "moneda",
+        "dataType": "char(3)",
+        "options": 8
+      },
+      "w7vDNQqmoWIFLLyd-bF1P": {
+        "id": "w7vDNQqmoWIFLLyd-bF1P",
+        "tableId": "iXutqaRoiYaSnXcs48zzE",
+        "name": "fecha_procesamiento",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "2ndtyLmP8tAYaVqvTdJ4I": {
+        "id": "2ndtyLmP8tAYaVqvTdJ4I",
+        "tableId": "l7YSY2AQM5foSbbW3s8h2",
+        "name": "acepto_terminos_servicio",
+        "dataType": "bit",
+        "options": 8
+      },
+      "6ofia8DoMqJEiI4m8okN0": {
+        "id": "6ofia8DoMqJEiI4m8okN0",
+        "tableId": "l7YSY2AQM5foSbbW3s8h2",
+        "name": "fecha_aceptacion_terminos",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "TwuTKpJZEKMihdmg7nheK": {
+        "id": "TwuTKpJZEKMihdmg7nheK",
+        "tableId": "l7YSY2AQM5foSbbW3s8h2",
+        "name": "codigo_usuario",
+        "dataType": "int",
+        "options": 10
+      },
+      "03haxk8o1r7yhzzhugeothk8d": {
+        "id": "03haxk8o1r7yhzzhugeothk8d",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "costo_hora_promedio",
+        "dataType": "decimal(10,2)",
+        "options": 8
+      },
+      "1jgxUiS3LYhf9wkZe3Wgr": {
+        "id": "1jgxUiS3LYhf9wkZe3Wgr",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "estado",
+        "dataType": "varchar(20)",
+        "options": 8
+      },
+      "5AM9XP9BZtBpqMyzVS3l7": {
+        "id": "5AM9XP9BZtBpqMyzVS3l7",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "codigo_empresa",
+        "dataType": "int",
+        "options": 11
+      },
+      "G-R39nftwY1at8aRzhlTx": {
+        "id": "G-R39nftwY1at8aRzhlTx",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "ruc",
+        "dataType": "varchar(20)",
+        "options": 12
+      },
+      "LL7GPkJhxv8iF7f9NO6yW": {
+        "id": "LL7GPkJhxv8iF7f9NO6yW",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "nombre_empresa",
+        "dataType": "nvarchar(100)",
+        "options": 8
+      },
+      "NyLlqPlrbMG_05I4Nn_eE": {
+        "id": "NyLlqPlrbMG_05I4Nn_eE",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "fecha_aceptacion_terminos",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "OuutszWs6OVIbuztx6I3Z": {
+        "id": "OuutszWs6OVIbuztx6I3Z",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "acepto_terminos",
+        "dataType": "bit",
+        "options": 8
+      },
+      "Zd2tpOVSk2Q_HHETnON_p": {
+        "id": "Zd2tpOVSk2Q_HHETnON_p",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "razon_social",
+        "dataType": "nvarchar(150)",
+        "options": 8
+      },
+      "ebnFapFiwmxhP7iNa66vI": {
+        "id": "ebnFapFiwmxhP7iNa66vI",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "fecha_creacion",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "vuaTIPq-Dj8dixxlG-2LK": {
+        "id": "vuaTIPq-Dj8dixxlG-2LK",
+        "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+        "name": "licencias_totales",
+        "dataType": "int",
+        "options": 8
+      },
+      "9WHXZKy_TOJ6-QukM1t6h": {
+        "id": "9WHXZKy_TOJ6-QukM1t6h",
+        "tableId": "xNARROzQ3TAqzb2bmPfvv",
+        "name": "codigo_asignacion",
+        "dataType": "int",
+        "options": 8
+      },
+      "KOo0xSYfxVk4Cuh6lQ2p2": {
+        "id": "KOo0xSYfxVk4Cuh6lQ2p2",
+        "tableId": "xNARROzQ3TAqzb2bmPfvv",
+        "name": "codigo_asignacion_tarea",
+        "dataType": "int",
+        "options": 11
+      },
+      "x1h_vcA3nfPz_wXEpzcDq": {
+        "id": "x1h_vcA3nfPz_wXEpzcDq",
+        "tableId": "xNARROzQ3TAqzb2bmPfvv",
+        "name": "codigo_tarea",
+        "dataType": "int",
+        "options": 8
+      },
+      "yWUefAVY0-rjlFA95EGXO": {
+        "id": "yWUefAVY0-rjlFA95EGXO",
+        "tableId": "xNARROzQ3TAqzb2bmPfvv",
+        "name": "fecha_asignacion",
+        "dataType": "datetime2",
+        "options": 8
+      },
+      "OcFxtfzTS3OMYf8KPaYq9": {
+        "id": "OcFxtfzTS3OMYf8KPaYq9",
+        "tableId": "z2dXakrG9gDVZuiiF9_zQ",
+        "name": "codigo_empresa",
+        "dataType": "int",
+        "options": 8
+      },
+      "VMZypninOBxVcq1rARhcZ": {
+        "id": "VMZypninOBxVcq1rARhcZ",
+        "tableId": "z2dXakrG9gDVZuiiF9_zQ",
+        "name": "codigo_lider_proyecto",
+        "dataType": "int",
+        "options": 8
+      },
+      "cenv99TVOfUJNWxLSP9SD": {
+        "id": "cenv99TVOfUJNWxLSP9SD",
+        "tableId": "z2dXakrG9gDVZuiiF9_zQ",
+        "name": "codigo_proyecto",
+        "dataType": "int",
+        "options": 11
+      },
+      "dAM6h-kXpatsfS96gcLGs": {
+        "id": "dAM6h-kXpatsfS96gcLGs",
+        "tableId": "z2dXakrG9gDVZuiiF9_zQ",
+        "name": "nombre_proyecto",
+        "dataType": "nvarchar(100)",
+        "options": 8
+      }
+    },
+    "relationshipEntities": {
+      "03haxjhc5pqvphd8zo94mlvo2": {
+        "id": "03haxjhc5pqvphd8zo94mlvo2",
+        "relationshipType": 2,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "xNARROzQ3TAqzb2bmPfvv",
+          "columnIds": [
+            "KOo0xSYfxVk4Cuh6lQ2p2"
+          ]
+        },
+        "end": {
+          "tableId": "03haxj77ojax6cy4zax5yo8xa",
+          "columnIds": [
+            "03haxjhc53tr6d20cf0dn9hq9"
+          ]
+        }
+      },
+      "03haxjsgbinm8sh40mv0ykl6e": {
+        "id": "03haxjsgbinm8sh40mv0ykl6e",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "axvu5SVSCvXNnbvtBp-og",
+          "columnIds": [
+            "0B3yPhQnDCtzzKaDTtnjo"
+          ]
+        },
+        "end": {
+          "tableId": "03haxj77ojax6cy4zax5yo8xa",
+          "columnIds": [
+            "03haxjsgbinm8sh40mueioy1d"
+          ]
+        }
+      },
+      "3EDQloKaoUkrDEYmJV8Vr": {
+        "id": "3EDQloKaoUkrDEYmJV8Vr",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "z2dXakrG9gDVZuiiF9_zQ",
+          "columnIds": [
+            "cenv99TVOfUJNWxLSP9SD"
+          ]
+        },
+        "end": {
+          "tableId": "8f5TklIVt-OfC6aZO9jgh",
+          "columnIds": [
+            "r-gn94uVMWRBNVZ1gQ-GU"
+          ]
+        }
+      },
+      "3tHIZ2yVsmnHypbOHTtqX": {
+        "id": "3tHIZ2yVsmnHypbOHTtqX",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+          "columnIds": [
+            "5AM9XP9BZtBpqMyzVS3l7"
+          ]
+        },
+        "end": {
+          "tableId": "axvu5SVSCvXNnbvtBp-og",
+          "columnIds": [
+            "ghUNTEfMQomzhUUwPrI8o"
+          ]
+        }
+      },
+      "9O7z1Fe1nrR45KSrBloV9": {
+        "id": "9O7z1Fe1nrR45KSrBloV9",
+        "relationshipType": 2,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "euOtYataWEBWnUB4lhBp6",
+          "columnIds": [
+            "NkPm30CuO3nJcbu0PFTdj"
+          ]
+        },
+        "end": {
+          "tableId": "axvu5SVSCvXNnbvtBp-og",
+          "columnIds": [
+            "0B3yPhQnDCtzzKaDTtnjo"
+          ]
+        }
+      },
+      "AvS38M8IVJTlQku8i-as9": {
+        "id": "AvS38M8IVJTlQku8i-as9",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "8f5TklIVt-OfC6aZO9jgh",
+          "columnIds": [
+            "baDrfw6zu3AkMZvC4MfUv"
+          ]
+        },
+        "end": {
+          "tableId": "xNARROzQ3TAqzb2bmPfvv",
+          "columnIds": [
+            "x1h_vcA3nfPz_wXEpzcDq"
+          ]
+        }
+      },
+      "FpaUnz_UHAEH1OGPFl5cn": {
+        "id": "FpaUnz_UHAEH1OGPFl5cn",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "axvu5SVSCvXNnbvtBp-og",
+          "columnIds": [
+            "0B3yPhQnDCtzzKaDTtnjo"
+          ]
+        },
+        "end": {
+          "tableId": "z2dXakrG9gDVZuiiF9_zQ",
+          "columnIds": [
+            "VMZypninOBxVcq1rARhcZ"
+          ]
+        }
+      },
+      "Gn5ke5_qCzV7bM1Fu8fxq": {
+        "id": "Gn5ke5_qCzV7bM1Fu8fxq",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+          "columnIds": [
+            "3yRgjlbVzkNzxv3gTlseT"
+          ]
+        },
+        "end": {
+          "tableId": "iXutqaRoiYaSnXcs48zzE",
+          "columnIds": [
+            "C5xkLYCC7YG_ug98x6-HF"
+          ]
+        }
+      },
+      "JqHVy2u-faMyZpvOl1wkA": {
+        "id": "JqHVy2u-faMyZpvOl1wkA",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "0bVvkUmG2s49R6BSQPOXM",
+          "columnIds": [
+            "lbg7jos5VTLZVYZSzO1YO"
+          ]
+        },
+        "end": {
+          "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+          "columnIds": [
+            "AfekGrc2ItKEJANbIbKIU"
+          ]
+        }
+      },
+      "OhWx8jZpnF7RWh98VV1Mw": {
+        "id": "OhWx8jZpnF7RWh98VV1Mw",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "0bVvkUmG2s49R6BSQPOXM",
+          "columnIds": [
+            "lbg7jos5VTLZVYZSzO1YO"
+          ]
+        },
+        "end": {
+          "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+          "columnIds": [
+            "6D-i5JvCbk6Rdn0fV_Wk0"
+          ]
+        }
+      },
+      "V6g1VE9AfTs_2dFGxQWZt": {
+        "id": "V6g1VE9AfTs_2dFGxQWZt",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "l7YSY2AQM5foSbbW3s8h2",
+          "columnIds": [
+            "TwuTKpJZEKMihdmg7nheK"
+          ]
+        },
+        "end": {
+          "tableId": "Bm0GNCRwkYVbGHJ8QewCE",
+          "columnIds": [
+            "0TC0moURl-PgTtsvRyEgi"
+          ]
+        }
+      },
+      "W0eV02xGv-jY1RNu7WAfw": {
+        "id": "W0eV02xGv-jY1RNu7WAfw",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "z2dXakrG9gDVZuiiF9_zQ",
+          "columnIds": [
+            "cenv99TVOfUJNWxLSP9SD"
+          ]
+        },
+        "end": {
+          "tableId": "5jZv2evJM_c4w0oTIkcv-",
+          "columnIds": [
+            "-NxScX0Hf_qjIQ7MvBGzg"
+          ]
+        }
+      },
+      "eE6uRcba7dPR07GZYlene": {
+        "id": "eE6uRcba7dPR07GZYlene",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "Bm0GNCRwkYVbGHJ8QewCE",
+          "columnIds": [
+            "TYXbnEKeJ_QqWc5nVT801"
+          ]
+        },
+        "end": {
+          "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+          "columnIds": [
+            "VjRvntwSgAJDh8p5v1STg"
+          ]
+        }
+      },
+      "f_XIvLY1GvjkCvllxS4Ea": {
+        "id": "f_XIvLY1GvjkCvllxS4Ea",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+          "columnIds": [
+            "f--gqvWJVHsGk7UootyyA"
+          ]
+        },
+        "end": {
+          "tableId": "d9YVAZhEhjfyW6LCXsW5R",
+          "columnIds": [
+            "zbpHztegho0xQ7NuzhG3s"
+          ]
+        }
+      },
+      "g8jZboLYnpAu4t1M8m_uw": {
+        "id": "g8jZboLYnpAu4t1M8m_uw",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+          "columnIds": [
+            "5AM9XP9BZtBpqMyzVS3l7"
+          ]
+        },
+        "end": {
+          "tableId": "RwA7VxtEQeAoNirzgsV_Z",
+          "columnIds": [
+            "-aVVQjYcRUc_nBQ56i-D8"
+          ]
+        }
+      },
+      "oa-R9ylF9bt5R9cDMAfJx": {
+        "id": "oa-R9ylF9bt5R9cDMAfJx",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "l7YSY2AQM5foSbbW3s8h2",
+          "columnIds": [
+            "TwuTKpJZEKMihdmg7nheK"
+          ]
+        },
+        "end": {
+          "tableId": "bPS7YfIwY8zxwGkoHwkvn",
+          "columnIds": [
+            "6F4vuCsbbpYw3_55SgGyj"
+          ]
+        }
+      },
+      "q7mY7oyKc9vfZvH0ciQj2": {
+        "id": "q7mY7oyKc9vfZvH0ciQj2",
+        "relationshipType": 2,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "euOtYataWEBWnUB4lhBp6",
+          "columnIds": [
+            "NkPm30CuO3nJcbu0PFTdj"
+          ]
+        },
+        "end": {
+          "tableId": "l7YSY2AQM5foSbbW3s8h2",
+          "columnIds": [
+            "TwuTKpJZEKMihdmg7nheK"
+          ]
+        }
+      },
+      "rjnRXctkmvdK-nxwBaedS": {
+        "id": "rjnRXctkmvdK-nxwBaedS",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "axvu5SVSCvXNnbvtBp-og",
+          "columnIds": [
+            "0B3yPhQnDCtzzKaDTtnjo"
+          ]
+        },
+        "end": {
+          "tableId": "5jZv2evJM_c4w0oTIkcv-",
+          "columnIds": [
+            "8QDusVbqlHXJkFg0IGRNH"
+          ]
+        }
+      },
+      "wv4r5i3tYdpySYhirs9z8": {
+        "id": "wv4r5i3tYdpySYhirs9z8",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "5jZv2evJM_c4w0oTIkcv-",
+          "columnIds": [
+            "3rxsmKNtq-UGXML_jGj4J"
+          ]
+        },
+        "end": {
+          "tableId": "xNARROzQ3TAqzb2bmPfvv",
+          "columnIds": [
+            "9WHXZKy_TOJ6-QukM1t6h"
+          ]
+        }
+      },
+      "yvtU9VTyC70SmaPEaq6t-": {
+        "id": "yvtU9VTyC70SmaPEaq6t-",
+        "relationshipType": 4,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "rHeG-kKp8qHW9EkwIKu8e",
+          "columnIds": [
+            "5AM9XP9BZtBpqMyzVS3l7"
+          ]
+        },
+        "end": {
+          "tableId": "z2dXakrG9gDVZuiiF9_zQ",
+          "columnIds": [
+            "OcFxtfzTS3OMYf8KPaYq9"
+          ]
+        }
+      }
+    },
+    "indexEntities": {
+      "03haxa4tre72p3xaoo4cq0ma4": {
+        "id": "03haxa4tre72p3xaoo4cq0ma4",
+        "tableId": "5jZv2evJM_c4w0oTIkcv-",
+        "indexColumnIds": [
+          "03haxa55iafppthb8skglc4i1",
+          "03haxa5v4s0zwx2dce66wx90p"
+        ],
+        "unique": true
+      },
+      "03haxaf6ozgvzculof1b0l6ln": {
+        "id": "03haxaf6ozgvzculof1b0l6ln",
+        "tableId": "xNARROzQ3TAqzb2bmPfvv",
+        "indexColumnIds": [
+          "03haxafsapr8rbxsa5302j8q9",
+          "03haxag03fg1ubhum7htomra0"
+        ],
+        "unique": true
+      }
+    },
+    "indexColumnEntities": {
+      "03haxa55iafppthb8skglc4i1": {
+        "id": "03haxa55iafppthb8skglc4i1",
+        "indexId": "03haxa4tre72p3xaoo4cq0ma4",
+        "columnId": "-NxScX0Hf_qjIQ7MvBGzg",
+        "orderType": 1
+      },
+      "03haxa5v4s0zwx2dce66wx90p": {
+        "id": "03haxa5v4s0zwx2dce66wx90p",
+        "indexId": "03haxa4tre72p3xaoo4cq0ma4",
+        "columnId": "8QDusVbqlHXJkFg0IGRNH",
+        "orderType": 1
+      },
+      "03haxafsapr8rbxsa5302j8q9": {
+        "id": "03haxafsapr8rbxsa5302j8q9",
+        "indexId": "03haxaf6ozgvzculof1b0l6ln",
+        "columnId": "x1h_vcA3nfPz_wXEpzcDq",
+        "orderType": 1
+      },
+      "03haxag03fg1ubhum7htomra0": {
+        "id": "03haxag03fg1ubhum7htomra0",
+        "indexId": "03haxaf6ozgvzculof1b0l6ln",
+        "columnId": "9WHXZKy_TOJ6-QukM1t6h",
+        "orderType": 1
+      }
+    },
+    "memoEntities": {
+      "03haxru78ik9d7bcowv1tq9iw": {
+        "id": "03haxru78ik9d7bcowv1tq9iw",
+        "value": "Identifica al líder técnico responsable de gestionar el proyecto.",
+        "ui": {
+          "x": 637.0623,
+          "y": -811.6001,
+          "width": 116.97087378640762,
+          "height": 100
+        }
+      },
+      "03haxs0q66t3ogfz3ckd229b0": {
+        "id": "03haxs0q66t3ogfz3ckd229b0",
+        "value": "Especializa al usuario base como miembro corporativo",
+        "ui": {
+          "x": 276.8665,
+          "y": -616.4558,
+          "width": 116.97087378640775,
+          "height": 100
+        }
+      },
+      "03haxs56chq561j93kg1lnybf": {
+        "id": "03haxs56chq561j93kg1lnybf",
+        "value": "Especializa al usuario base como estudiante/usuario individual",
+        "ui": {
+          "x": 2.2908,
+          "y": -370.9965,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "03haxsbs0r3kv2zb95ql2b5gn": {
+        "id": "03haxsbs0r3kv2zb95ql2b5gn",
+        "value": "Asocia cada proyecto a la empresa propietaria",
+        "ui": {
+          "x": 712.7873,
+          "y": -644.6124,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "03haxskevkti1txir821xepk5": {
+        "id": "03haxskevkti1txir821xepk5",
+        "value": "Registra qué desarrolladores participan en cada proyecto",
+        "ui": {
+          "x": 756.5246,
+          "y": -968.642,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "03haxspngrx1slgcmqvei9ll5": {
+        "id": "03haxspngrx1slgcmqvei9ll5",
+        "value": "Permite que un desarrollador integre varios proyectos",
+        "ui": {
+          "x": 466.6136,
+          "y": -910.7007,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "03haxstl7kouytbfb692jvrfv": {
+        "id": "03haxstl7kouytbfb692jvrfv",
+        "value": "Agrupa las tareas del sprint dentro del proyecto al que pertenecen.",
+        "ui": {
+          "x": 1063.5819,
+          "y": -972.1721,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "03haxsx53zhubwdupxylj88k9": {
+        "id": "03haxsx53zhubwdupxylj88k9",
+        "value": "Registra la delegación de una tarea y permite reasignaciones históricas.",
+        "ui": {
+          "x": 724.2818,
+          "y": -1271.4926,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "03haxt2ae3kslxcy2oqyvxmww": {
+        "id": "03haxt2ae3kslxcy2oqyvxmww",
+        "value": "Garantiza que solo miembros asignados al proyecto reciban tareas.",
+        "ui": {
+          "x": 516.9525,
+          "y": -1266.6523,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "03haxt4qvaup83nuqaluxsfjk": {
+        "id": "03haxt4qvaup83nuqaluxsfjk",
+        "value": "Audita solo las asignaciones forzadas pese a alerta de fatiga",
+        "ui": {
+          "x": 22.5198,
+          "y": -1166.6743,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "03haxtxmi94p2celubu5yxwv8": {
+        "id": "03haxtxmi94p2celubu5yxwv8",
+        "value": "Guarda las facturas y pagos recurrentes de cada suscripción B2B.",
+        "ui": {
+          "x": 1012.3154,
+          "y": -25.2129,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "4Vo9TqBb1UeIIY67kChgs": {
+        "id": "4Vo9TqBb1UeIIY67kChgs",
+        "value": "Registra qué líder asumió la responsabilidad al forzar la tarea.",
+        "ui": {
+          "x": -8.2817,
+          "y": -947.2562,
+          "width": 143.3504273504274,
+          "height": 100.10683760683749
+        }
+      },
+      "73LmJft-WHiFvFg5vTgyR": {
+        "id": "73LmJft-WHiFvFg5vTgyR",
+        "value": "Vincula la suscripción individual con un plan del catálogo B2C.",
+        "ui": {
+          "x": -538.3096,
+          "y": -164.7626,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "Cjya1ocORDl5v3_rF_A1s": {
+        "id": "Cjya1ocORDl5v3_rF_A1s",
+        "value": "Permite al usuario B2C guardar ninguna o varias tarjetas tokenizadas.",
+        "ui": {
+          "x": -266.0634,
+          "y": -548.1613,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "Dz_qypWnXla-fsjK3Nax1": {
+        "id": "Dz_qypWnXla-fsjK3Nax1",
+        "value": "Vincula cada empleado corporativo con la empresa dueña de su licencia.",
+        "ui": {
+          "x": 600.0625,
+          "y": -495.7628,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "EQR5Jd4hmP2M3v5-oFM7u": {
+        "id": "EQR5Jd4hmP2M3v5-oFM7u",
+        "value": "Indica con qué tarjeta se intentó o procesó cada cobro B2C.",
+        "ui": {
+          "x": -594.3746,
+          "y": -808.0909,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "ErpOe1KOk7NEwwwrGqokT": {
+        "id": "ErpOe1KOk7NEwwwrGqokT",
+        "value": "Registra el historial de suscripciones individuales del usuario B2C.",
+        "ui": {
+          "x": -593.6319,
+          "y": -350.4058,
+          "width": 133.52136752136772,
+          "height": 100.85470085470088
+        }
+      },
+      "UzTkEH4HQayL7cZKC0Zp2": {
+        "id": "UzTkEH4HQayL7cZKC0Zp2",
+        "value": "Vincula el contrato de la empresa con un plan del catálogo B2B.",
+        "ui": {
+          "x": 366.1639,
+          "y": 1.9805,
+          "width": 116.91503267973862,
+          "height": 100.00000000000004
+        }
+      },
+      "dmEewv-YAo6c-lrhQw9cY": {
+        "id": "dmEewv-YAo6c-lrhQw9cY",
+        "value": "Guarda los cobros recurrentes generados por una suscripción B2C.",
+        "ui": {
+          "x": -892.598,
+          "y": -534.1161,
+          "width": 116,
+          "height": 100
+        }
+      },
+      "mkkTCqTg2mUzlQ3SNjakb": {
+        "id": "mkkTCqTg2mUzlQ3SNjakb",
+        "value": "Registra las suscripciones corporativas contratadas por cada empresa.",
+        "ui": {
+          "x": 651.3398,
+          "y": -23.1158,
+          "width": 118.24012892828371,
+          "height": 100
+        }
+      }
+    }
+  }
+}
